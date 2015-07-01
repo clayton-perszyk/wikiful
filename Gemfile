@@ -42,5 +42,8 @@ group :development, :test do
   gem 'spring'
 
   gem 'faker'
+
+  gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
 end
 
