@@ -16,3 +16,32 @@
 
  @import "bootstrap";
  body { padding-top: 60px; }
+ .link { 
+ 	list-style-type: none;
+ 	margin: 5px;
+ 	
+ }
+
+  .brand-color {
+ 	color: #fff; 
+ }
+
+ .navbar {
+ 	background: #428bca;
+ }
+
+ .categories {
+ 	font-weight: bold;
+ }
+
+ .published {
+ 	color: #888;
+ }
+
+ ul {
+ 	list-style-type: none;
+ }
+
+ .form-actions {
+ 	margin: 10px 5px 0 0;
+ }

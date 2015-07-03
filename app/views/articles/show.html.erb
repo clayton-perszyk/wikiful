@@ -1,8 +1,8 @@
 <div>
 	<h1><%= @article.title %></h1>
-	<p>Published <%= @article.created_at.strftime('%b %d, %Y') %></p>
-	<p>Filed under: <% @article.categories.each do |category| %>
-						<%= category.name %>&nbsp;;
+	<p class="published">Published <%= @article.created_at.strftime('%b %d, %Y') %></p>
+	<p class="categories">Filed under:<br /> <% @article.categories.each do |category| %>
+						<%= link_to category.name , category, :class => "btn btn-primary btn-xs" %>&nbsp;
 					<% end %>
 	</p>
 	<div><%= @article.content %></div>

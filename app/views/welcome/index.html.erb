@@ -1,3 +1,7 @@
-<h1>Welcome To Wikiful</h1>
-<p>Here are some recently added articles.</p>
+<div class="well well-lg jumbotron">
+	<h1>Welcome To Wikiful!</h1>
+	<p>a place to publish and view articles of interest.</p>
+	<p><a class="btn btn-primary btn-lg" href="#" role="button">Signup</a></p>
+</div>
+<h3 class="published">Recently added articles:</h3>
 <%= render partial: 'shared/article', collection: @recent_articles, locals: { length: 100 } %>
